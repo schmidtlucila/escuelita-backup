@@ -1,0 +1,14 @@
+.project
+.settings
+.classpath
+target
+test-output
+output
+out.henry
+bin
+**/.project
+**/.settings
+**/.externalToolBuilders
+**/.classpath
+**/.target
+**/.springBeans

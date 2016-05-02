@@ -1,0 +1,21 @@
+[ 
+   {	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_ar",
+   			"classTest":"FlightsGuiTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc"
+   		}
+   	},
+   	
+   	{	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_br",
+   			"classTest":"FlightsGuiPageTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc"
+   		}
+   	}
+]

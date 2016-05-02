@@ -1,0 +1,10 @@
+SELECT ADDTIME(G.DEPARTURE_DATE,'{{gmt}}:0:0.00000') AS departureDate,
+G.SHIP_ID AS shipId,
+G.DURATION AS duration,
+G.ITINERARY_ID AS itineraryId,
+G.DECK_ID AS deckId,
+G.CABIN_CATEGORY AS cabinCategory,
+G.BLOCKED_CATEGORY_ID AS blockedCategoryId,
+G.COMPANY_CONTRACT_ID AS companyContractId,
+G.COMPANY_CODE AS companyCode,
+G.CABIN_CODE AS cabinCode FROM GATEWAY AS G

@@ -1,0 +1,67 @@
+[ 
+   {	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_ar",
+   			"classTest":"FlightsGuiTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc",
+   			"severity": "severe",
+   			"bestSeller": "best_seller",
+   			"country": "argentina"
+   		}
+   	},
+   	
+   	{	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_br",
+   			"classTest":"FlightsGuiTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc",
+   			"severity": "severe",
+   			"bestSeller": "best_seller",
+   			"country": "brasil"
+   		}
+   	},
+   	
+   	   	{	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_cl",
+   			"classTest":"FlightsGuiTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc",
+   			"severity": "normal",
+   			"bestSeller": "normal_seller",
+   			"country": "chile"
+   		}
+   	},
+   	
+   	   	{	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_mx",
+   			"classTest":"FlightsGuiTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc",
+   			"severity": "high",
+   			"bestSeller": "best_seller",
+   			"country": "mexico"
+   		}
+   	},
+   	
+   	   	{	
+   		"all":{
+   			"environment":"prod",
+   			"officeData":"flights_despegar_uy",
+   			"classTest":"FlightsGuiTest",
+   			"browser":"chrome",
+   			"secondEnvironment":"rc",
+   			"severity": "normal",
+   			"bestSeller": "normal_seller",
+   			"country": "uruguay"
+   		}
+   	}
+   	
+]

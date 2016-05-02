@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionServiceTest" verbose="1">
+	<parameter name="environment" value="ic" />
+	<parameter name="officeData" value="-" />
+	<parameter name="browser" value="-" />
+
+	<test name="CruiseServiceSearchTest" preserve-order="true">
+		<classes>
+			<class
+				name="tp.tests.impl.testng.cruise.searchservice.CruiseServiceSearchTest"></class>
+		</classes>
+	</test>
+
+</suite>

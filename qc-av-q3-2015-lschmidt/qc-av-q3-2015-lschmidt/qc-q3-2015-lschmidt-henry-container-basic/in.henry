@@ -1,0 +1,23 @@
+[
+   {
+      "all":{
+		"continent":"South America",
+      },
+
+	"Argentina":{
+		"population":40,
+		"capital": "Buenos Aires",
+      },
+      
+     "Brazil":{
+		"population":60,
+		"capital": "Brasilia",
+      },
+      
+      "United_States":{
+		"population":150,
+		"continent":"North America",
+		"capital": "Washington",
+      }
+   }
+]

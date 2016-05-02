@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.despegar.scm</groupId>
+		<artifactId>scm-master-pom</artifactId>
+		<version>1.0.7</version>
+	</parent>
+
+	<groupId>com.despegar.qc.examples</groupId>
+	<artifactId>exercise-java-henry-container</artifactId>
+	<version>0.0.3-SNAPSHOT</version>
+	<name>Examples Exercise Java Container</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.despegar.henry</groupId>
+			<artifactId>henry-java-container</artifactId>
+			<version>1.0.44</version>
+		</dependency>
+	</dependencies>
+
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FlightsGuiTest" verbose="1">
+	<parameter name="environment" value="prod" />
+	<parameter name="secondEnvironment" value="rc" />
+	<parameter name="browser" value="chrome" />
+
+ 	<test name="FlightsGuiTestAR" preserve-order="true">
+		<parameter name="officeData" value="flights_despegar_ar" />
+		<parameter name="country" value="argentina" />
+		<parameter name="severity" value="severe" />
+		<parameter name="bestSeller" value="best_seller" />
+		<classes>
+			<class
+				name="tp.tests.impl.testng.flights.smoketests.site.FlightsGuiTest"></class>
+		</classes>
+	</test>
+	
+	<test name="FlightsGuiTestBR" preserve-order="true">
+		<parameter name="officeData" value="flights_despegar_br" />
+		<parameter name="country" value="brasil" />
+		<parameter name="severity" value="severe" />
+		<parameter name="bestSeller" value="best_seller" />
+		<classes>
+			<class
+				name="tp.tests.impl.testng.flights.smoketests.site.FlightsGuiTest"></class>
+		</classes>
+	</test>	
+
+	<test name="FlightsGuiTestCL" preserve-order="true">
+		<parameter name="officeData" value="flights_despegar_cl" />
+		<parameter name="country" value="chile" />
+		<parameter name="severity" value="normal" />
+		<parameter name="bestSeller" value="normal_seller" />
+		<classes>
+			<class
+				name="tp.tests.impl.testng.flights.smoketests.site.FlightsGuiTest"></class>
+		</classes>
+	</test>	
+	
+	<test name="FlightsGuiTestMX" preserve-order="true">
+		<parameter name="officeData" value="flights_despegar_mx" />
+		<parameter name="country" value="mexico" />
+		<parameter name="severity" value="high" />
+		<parameter name="bestSeller" value="best_seller" />
+		<classes>
+			<class
+				name="tp.tests.impl.testng.flights.smoketests.site.FlightsGuiTest"></class>
+		</classes>
+	</test>
+	
+	<test name="FlightsGuiTestUY" preserve-order="true">
+		<parameter name="officeData" value="flights_despegar_uy" />
+		<parameter name="country" value="uruguay" />
+		<parameter name="severity" value="normal" />
+		<parameter name="bestSeller" value="normal_seller" />
+		<classes>
+			<class
+				name="tp.tests.impl.testng.flights.smoketests.site.FlightsGuiTest"></class>
+		</classes>
+	</test>
+
+</suite>

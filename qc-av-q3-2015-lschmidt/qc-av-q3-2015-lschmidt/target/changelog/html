@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>changelog for qc-q3-2015-lschmidt-java (0.0.1-SNAPSHOT)</title>
+	<style type="text/css">
+		body {
+		font-family: Arial;
+		}
+		table {
+		border-collapse: collapse;
+		}
+		td {
+		border: 1px solid #CCCCCC;
+		}
+		td.date, .author, .committer {
+		white-space: nowrap;
+		}
+		.tag td {
+		border-width: 0px;
+		font-weight: bold;
+		padding-top: 30px;
+		padding-bottom: 7px;
+		}
+	</style>
+</head>
+<body>
+<h1>changelog for qc-q3-2015-lschmidt-java (0.0.1-SNAPSHOT)</h1>
+
+	<table class="changelog">
+		<tbody>
+		</tbody>
+	</table>
+
+
+</body>
+</html>

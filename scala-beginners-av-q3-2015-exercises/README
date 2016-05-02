@@ -1,0 +1,21 @@
+# BRANCH MASTER
+A partir de este repo deben generar branches con sus respectivos nombres para realizar los ejercicios de SCALA.
+
+Dentro de la carpeta src/main/scala van a encontrar un archivo llamado LinkedList.scala que contiene el esqueleto de una implementacion de lista enlazada.
+
+La idea es que ustedes completen esta implementacion, agregando el codigo que falta para los metodos que estan asignados a ???.
+
+Para que puedan arrancar les damos algunos metodos ya implementados, los mas importantes son el fold, el foreach y el reverse.
+
+Todos los metodos se pueden implementar usando fold, foreach o pattern matching. (Por cada foreach que usen se muere un gatito)
+
+Todos los metodos tienen que respetar el orden inicial de la lista y de sus parametros. Es decir que LinkedList(1,2,3).map(_ * 2) tiene que devolver LinkedList(2,4,6). (Tengan cuidad con el fold, ya que invierte la lista)
+
+Ademas de completar esta implementacion, les vamos a pedir que resuelvan los ejercicios dentro del archivo Excercises.scala, que se encuentra en la misma carpeta que LinkedList.scala
+
+IMPORTANTE!
+Consulten, consulten, consulten, consulten. Nos interesa saber si se traban, si no entienden algo, si algo no les compila, etc. No solo evaluamos si llegan a resolver los ejercicios, sino como llegan a esas soluciones.
+
+Happy Coding!
+
+

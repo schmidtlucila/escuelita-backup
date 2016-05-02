@@ -1,0 +1,10 @@
+/target
+.settings
+.classpath
+.project
+/output
+out.henry
+/test-output
+/target
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.jdt.ui.prefs
